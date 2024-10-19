@@ -46,10 +46,10 @@ body {
         transform: translateY(-10px);
     }
 }
-.flag__birthday .flag__left{
+.flag__20/10 .flag__left{
     transform: rotate(-10deg) translate(-20px,30px);
 }
-.flag__birthday .flag__right{
+.flag__20/10 .flag__right{
     transform: rotate(10deg) translate(20px,30px) scaleX(-1);
 }
 .content{
@@ -130,7 +130,7 @@ body {
     flex-direction: column;
     perspective: 1000px;
 }
-.title .happy, .title .birthday{
+.title .happy, .title .20/10 Day{
     position: relative;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
@@ -144,7 +144,7 @@ body {
 .title .happy{
     color: var(--color-white);
 }
-.title .happy span, .title .birthday span{
+.title .happy span, .title .20/10 Day span{
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
@@ -157,7 +157,7 @@ body {
         visibility: visible;
     }
 }
-.title .birthday{
+.title .20/10{
     color: var(--color-text-pink);
 }
 
